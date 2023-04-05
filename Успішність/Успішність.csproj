@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF2A628A-76C0-474E-B9B5-315A66AA49F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Успішність</RootNamespace>
+    <AssemblyName>Успішність</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.29\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addPointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addPointForm.Designer.cs">
+      <DependentUpon>addPointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListUsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListUsersForm.Designer.cs">
+      <DependentUpon>ListUsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINMainForm.Designer.cs">
+      <DependentUpon>ADMINMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PointForm.Designer.cs">
+      <DependentUpon>PointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AddAbiturientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAbiturientForm.Designer.cs">
+      <DependentUpon>AddAbiturientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="regForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regForm.Designer.cs">
+      <DependentUpon>regForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USERMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USERMainForm.Designer.cs">
+      <DependentUpon>USERMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersRaiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersRaiting.Designer.cs">
+      <DependentUpon>UsersRaiting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComparForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComparForm.Designer.cs">
+      <DependentUpon>ComparForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addPointForm.resx">
+      <DependentUpon>addPointForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListUsersForm.resx">
+      <DependentUpon>ListUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINMainForm.resx">
+      <DependentUpon>ADMINMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointForm.resx">
+      <DependentUpon>PointForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAbiturientForm.resx">
+      <DependentUpon>AddAbiturientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="regForm.resx">
+      <DependentUpon>regForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USERMainForm.resx">
+      <DependentUpon>USERMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersRaiting.resx">
+      <DependentUpon>UsersRaiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComparForm.resx">
+      <DependentUpon>ComparForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Діаграмма класів.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hidden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyLib\MyLib.csproj">
+      <Project>{b587f51c-394d-4226-b648-1502a07a1b4e}</Project>
+      <Name>MyLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseMenuButton.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseMenuButton.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoveringOverTheButton.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoveringOverTheButton.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InvalidEnter.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InvalidEnter.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PressOnButton.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PressOnButtons.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseMenuButton1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoveringOverTheButton1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InvalidEnter1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-user %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

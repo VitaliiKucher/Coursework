@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Успішність.AddAbiturient" Collapsed="true">
+    <Position X="13.25" Y="6.75" Width="1.5" />
+    <AssociationLine Name="database" Type="MyLib.Database" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="6.75" />
+        <Point X="13.75" Y="4.312" />
+        <Point X="10.25" Y="4.312" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.506" Y="-0.164" Height="0.182" Width="0.882" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sounds" Type="MyLib.Sounds" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.438" Y="6.75" />
+        <Point X="13.438" Y="5.766" />
+        <Point X="12.614" Y="5.766" Type="JumpStart" />
+        <Point X="12.448" Y="5.766" Type="JumpEnd" />
+        <Point X="11.186" Y="5.766" Type="JumpStart" />
+        <Point X="11.02" Y="5.766" Type="JumpEnd" />
+        <Point X="10.25" Y="5.766" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.008" Y="0.016" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACQAQBBUAEzgAgACAQAkgAAAAAAAQEAAoCA=</HashCode>
+      <FileName>AddAbiturientForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+      <Field Name="sounds" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.addPointForm" Collapsed="true">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <AssociationLine Name="database" Type="MyLib.Database" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.531" Y="6.75" />
+        <Point X="12.531" Y="4.5" />
+        <Point X="10.25" Y="4.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.156" Y="0.17" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sounds" Type="MyLib.Sounds" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.375" Y="6.75" />
+        <Point X="11.375" Y="6.019" />
+        <Point X="11.186" Y="6.019" Type="JumpStart" />
+        <Point X="11.02" Y="6.019" Type="JumpEnd" />
+        <Point X="10.125" Y="6.019" />
+        <Point X="10.125" Y="5.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.736" Y="0.253" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>SAAAAAiAACMBoBBUCAigAhSCAYAEgCAAAAAAAAAAgAA=</HashCode>
+      <FileName>addPointForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+      <Field Name="sounds" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.ADMINMainForm" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <AssociationLine Name="sounds" Type="MyLib.Sounds" FixedToPoint="true">
+      <Path>
+        <Point X="9.812" Y="6.75" />
+        <Point X="9.812" Y="5.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.015" Y="0.047" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="database" Type="MyLib.Database" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="7.062" />
+        <Point X="11.103" Y="7.062" />
+        <Point X="11.103" Y="4.656" />
+        <Point X="10.25" Y="4.656" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.03" Y="-0.232" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="selectedRow" Type="System.Int32">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.002" Y="0.254" Height="0.182" Width="1.008" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IBQF0hKAQLtUwDxcSkDWQEDCAIgEqAAIiAQIQYBgJiQ=</HashCode>
+      <FileName>ADMINMainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sounds" />
+      <Field Name="database" />
+      <Field Name="selectedRow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.ListUsersForm" Collapsed="true">
+    <Position X="15.75" Y="4.25" Width="1.5" />
+    <AssociationLine Name="database" Type="MyLib.Database" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.125" Y="4.25" />
+        <Point X="16.125" Y="4.12" />
+        <Point X="14.692" Y="4.12" />
+        <Point X="14.692" Y="3.506" />
+        <Point X="9.5" Y="3.506" />
+        <Point X="9.5" Y="4.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.805" Y="0.468" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sound" Type="MyLib.Sounds" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.125" Y="4.941" />
+        <Point X="16.125" Y="5.562" />
+        <Point X="15.239" Y="5.562" Type="JumpStart" />
+        <Point X="15.073" Y="5.562" Type="JumpEnd" />
+        <Point X="13.833" Y="5.562" Type="JumpStart" />
+        <Point X="13.667" Y="5.562" Type="JumpEnd" />
+        <Point X="12.614" Y="5.562" Type="JumpStart" />
+        <Point X="12.448" Y="5.562" Type="JumpEnd" />
+        <Point X="11.186" Y="5.562" Type="JumpStart" />
+        <Point X="11.02" Y="5.562" Type="JumpEnd" />
+        <Point X="10.25" Y="5.562" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.044" Y="0.002" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="table" Type="System.Data.DataTable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.312" Y="4.25" />
+        <Point X="16.312" Y="3.434" />
+        <Point X="16.877" Y="3.434" />
+        <Point X="16.877" Y="2.628" />
+        <Point X="12.806" Y="2.628" />
+        <Point X="12.806" Y="2.096" />
+        <Point X="12.5" Y="2.096" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.361" Y="-0.503" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="selectedRow" Type="System.Int32" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.25" Y="4.941" />
+        <Point X="16.25" Y="5.667" />
+        <Point X="15.212" Y="5.667" />
+        <Point X="15.212" Y="7.846" />
+        <Point X="11.759" Y="7.846" />
+        <Point X="11.759" Y="8.812" />
+        <Point X="10.5" Y="8.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="-0.25" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>KBQMwhYBULNEABxISgDWQEDCAAgEuAAIiAQAAYBgBgA=</HashCode>
+      <FileName>ListUsersForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+      <Field Name="sound" />
+      <Field Name="table" />
+      <Field Name="selectedRow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.LoginForm" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <AssociationLine Name="db" Type="MyLib.Database" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.688" Y="3.191" />
+        <Point X="2.688" Y="4.438" />
+        <Point X="4.167" Y="4.438" Type="JumpStart" />
+        <Point X="4.333" Y="4.438" Type="JumpEnd" />
+        <Point X="5.729" Y="4.438" Type="JumpStart" />
+        <Point X="6.021" Y="4.438" Type="JumpEnd" />
+        <Point X="8.75" Y="4.438" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.918" Y="-0.196" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sound" Type="MyLib.Sounds" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.375" Y="3.191" />
+        <Point X="2.375" Y="4.72" />
+        <Point X="3.397" Y="4.72" />
+        <Point X="3.397" Y="5.625" />
+        <Point X="3.698" Y="5.625" Type="JumpStart" />
+        <Point X="3.864" Y="5.625" Type="JumpEnd" />
+        <Point X="5.729" Y="5.625" Type="JumpStart" />
+        <Point X="5.895" Y="5.625" Type="JumpEnd" />
+        <Point X="7.245" Y="5.625" Type="JumpStart" />
+        <Point X="7.411" Y="5.625" Type="JumpEnd" />
+        <Point X="8.75" Y="5.625" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.127" Y="0" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AkAIAAABgCAQAAAAAACACAQSASAEQAADAIAAgAAAgAE=</HashCode>
+      <FileName>LoginForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+      <Field Name="sound" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.PointForm" Collapsed="true">
+    <Position X="6.75" Y="6.75" Width="1.5" />
+    <AssociationLine Name="database" Type="MyLib.Database" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.328" Y="6.75" />
+        <Point X="7.328" Y="4.879" />
+        <Point X="9" Y="4.879" />
+        <Point X="9" Y="4.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.69" Y="0.092" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sounds" Type="MyLib.Sounds" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="7.125" />
+        <Point X="8.938" Y="7.125" />
+        <Point X="8.938" Y="5.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.097" Y="0.073" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="selectedRow" Type="System.Int32" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="7.441" />
+        <Point X="7.5" Y="7.591" />
+        <Point X="9.03" Y="7.591" />
+        <Point X="9.03" Y="8.06" />
+        <Point X="9.75" Y="8.06" />
+        <Point X="9.75" Y="8.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.036" Y="0.255" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ZJQUwpKBQjPFojzeSojWQUTeQAgEqCAOiCRSo4FiAig=</HashCode>
+      <FileName>PointForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+      <Field Name="sounds" />
+      <Field Name="selectedRow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.Program" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Успішність.regForm" Collapsed="true">
+    <Position X="3.25" Y="6.5" Width="1.5" />
+    <AssociationLine Name="db" Type="MyLib.Database" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.781" Y="6.5" />
+        <Point X="3.781" Y="4.688" />
+        <Point X="4.167" Y="4.688" Type="JumpStart" />
+        <Point X="4.333" Y="4.688" Type="JumpEnd" />
+        <Point X="5.729" Y="4.688" Type="JumpStart" />
+        <Point X="6.021" Y="4.688" Type="JumpEnd" />
+        <Point X="8.75" Y="4.688" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.879" Y="-0.17" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="table" Type="System.Data.DataTable" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.625" Y="6.5" />
+        <Point X="3.625" Y="5.92" />
+        <Point X="2.209" Y="5.92" />
+        <Point X="2.209" Y="4.537" />
+        <Point X="1.809" Y="4.537" />
+        <Point X="1.809" Y="3.32" />
+        <Point X="1.222" Y="3.32" />
+        <Point X="1.222" Y="2.378" />
+        <Point X="5.104" Y="2.378" />
+        <Point X="5.104" Y="2.697" />
+        <Point X="7.032" Y="2.697" />
+        <Point X="7.032" Y="3.088" />
+        <Point X="9.819" Y="3.088" />
+        <Point X="9.819" Y="2.65" />
+        <Point X="10.79" Y="2.65" />
+        <Point X="10.79" Y="2.125" />
+        <Point X="11" Y="2.125" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.28" Y="-0.49" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sounds" Type="MyLib.Sounds" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.375" Y="6.5" />
+        <Point X="4.375" Y="5.75" />
+        <Point X="5.729" Y="5.75" Type="JumpStart" />
+        <Point X="5.895" Y="5.75" Type="JumpEnd" />
+        <Point X="7.245" Y="5.75" Type="JumpStart" />
+        <Point X="7.411" Y="5.75" Type="JumpEnd" />
+        <Point X="8.75" Y="5.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.079" Y="-0.025" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AkAAAAABkCQQAAFBAASAABQCASAkQAAFAAAAggAAgAE=</HashCode>
+      <FileName>regForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+      <Field Name="table" />
+      <Field Name="sounds" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.RegisterForm" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <AssociationLine Name="db" Type="MyLib.Database" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="2.875" />
+        <Point X="6.667" Y="2.875" />
+        <Point X="6.667" Y="3.277" />
+        <Point X="9.25" Y="3.277" />
+        <Point X="9.25" Y="4.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.231" Y="0.771" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sounds" Type="MyLib.Sounds" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="3.191" />
+        <Point X="4.25" Y="5.438" />
+        <Point X="5.729" Y="5.438" Type="JumpStart" />
+        <Point X="5.895" Y="5.438" Type="JumpEnd" />
+        <Point X="7.245" Y="5.438" Type="JumpStart" />
+        <Point X="7.411" Y="5.438" Type="JumpEnd" />
+        <Point X="8.75" Y="5.438" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.072" Y="-0.034" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AkAAAAABkCAQAAMBAACAADQCAyIMQAABAAAAggCAgAE=</HashCode>
+      <FileName>RegisterForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="db" />
+      <Field Name="sounds" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.USERMainForm" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <AssociationLine Name="database" Type="MyLib.Database" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="3.544" />
+        <Point X="7.304" Y="3.544" />
+        <Point X="7.304" Y="3.693" />
+        <Point X="8.938" Y="3.693" />
+        <Point X="8.938" Y="4.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.139" Y="0.311" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sounds" Type="MyLib.Sounds" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.938" Y="3.941" />
+        <Point X="5.938" Y="5.312" />
+        <Point X="7.245" Y="5.312" Type="JumpStart" />
+        <Point X="7.411" Y="5.312" Type="JumpEnd" />
+        <Point X="8.75" Y="5.312" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.092" Y="0.016" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="selectedRow" Type="System.Int32" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.812" Y="3.941" />
+        <Point X="5.812" Y="5.856" />
+        <Point X="6.624" Y="5.856" />
+        <Point X="6.624" Y="7.771" />
+        <Point X="8.743" Y="7.771" />
+        <Point X="8.743" Y="8.248" />
+        <Point X="9.375" Y="8.248" />
+        <Point X="9.375" Y="8.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.694" Y="0.489" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAABQBiAQKIUwAhUSkDAAACCAIgEgAAIgAQIQQBgIig=</HashCode>
+      <FileName>USERMainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+      <Field Name="sounds" />
+      <Field Name="selectedRow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.UsersRaiting" Collapsed="true">
+    <Position X="14" Y="4.25" Width="1.5" />
+    <AssociationLine Name="database" Type="MyLib.Database" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.25" Y="4.25" />
+        <Point X="14.25" Y="3.631" />
+        <Point X="10.444" Y="3.631" />
+        <Point X="10.444" Y="4.099" />
+        <Point X="10" Y="4.099" />
+        <Point X="10" Y="4.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.242" Y="0.404" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="sounds" Type="MyLib.Sounds">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.027" Y="0.038" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="selectedRow" Type="System.Int32" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.156" Y="4.941" />
+        <Point X="15.156" Y="7.743" />
+        <Point X="11.573" Y="7.743" />
+        <Point X="11.573" Y="8.562" />
+        <Point X="10.5" Y="8.562" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="-0.2" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAQQJCBQCKEMkjGSAiAAQCCAAiEAAAPgAQSAQBiAA0=</HashCode>
+      <FileName>UsersRaiting.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="database" />
+      <Field Name="sounds" />
+      <Field Name="selectedRow" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Успішність.Properties.Resources" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAgAAAAgAQQBABEAAAoQAAAAAAAQQAACAAMIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyLib.Database" Collapsed="true">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyLib.Sounds" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Data.DataTable" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.697" />
+  </Class>
+  <Struct Name="System.Int32" Collapsed="true">
+    <Position X="9" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Orientation="Left" Position="0.16" />
+  </Struct>
+  <Enum Name="Успішність.RowState" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAABAAEAAAAAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
